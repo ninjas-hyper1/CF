@@ -1,0 +1,5 @@
+# analyze ftk image
+1. file > add evidence item > give source path where image file is.
+2. click on finish.
+3. now select evidence tree and analyze the virtual disk as physical disk.
+4. finish

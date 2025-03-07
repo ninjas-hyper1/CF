@@ -1,0 +1,10 @@
+# Email forensic
+
+1. open AccessData FTK > start new case > ok > next (until reach ) Refine Case -Default > Click Email emphasis button > next
+2. Click next (Untill reach ADD evidence case) > AddEvidence >Individual File >Continue.
+3. In the Select file dilague box navigate to .pst file > Open.
+4. When the ADD evidence to case dialog box opens click Next, In the case summary box click finish. when FTK finishes processing the file, in the main ftk window click the Email messages button,  click on full path column header to sort the records.
+
+5.For email reecovery following steps:
+  Cleck the Email tab In tree view click to expand all folders and then click the deleted items folder
+6. Select any message say Message 0001 right click and select option Launch. Detached viewer and you can see detail of deleted messages.

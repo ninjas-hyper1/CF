@@ -1,0 +1,10 @@
+# using sysinternal tools for process monitoring.
+#Monitor live process (Tool: Procmon)
+1. open procom.exe 
+2. click Filter > filter.
+3. above select process name, then enter chrome.exe in empty box > Add > click on ok
+4. click on tools > process tree > close it > again tools > process activity summary.
+
+# Capture Ram (Tool: Ram Capture)
+1. click on Ram Capture 64 bit itll start capturing.
+    itll create MEM file of the system memory RAm utilized.

@@ -1,0 +1,9 @@
+# forensic image using ftk imager.
+
+1. file > create disk image.
+2. select logical then select drive.
+3. click on add > E01 >
+4. image destination: select the folder where you'll be creating an image.
+    image filename: the name you want to give to your image file.
+5. finish > start.
+6. click on image summary.

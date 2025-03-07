@@ -1,0 +1,30 @@
+# analyze the packets provided and solve the questions using wireshark.
+Q. what server is used by snopes? ans: Microsoft-IIS/5.0
+1. open wireshark click on edit > preference > columns > add.
+   title: Host
+   fieldt ype: Custom
+   Field name: http.host 
+   click on ok
+2. open wireshaark file > open > Asksnopes.pcapng
+   select any http > chech for HYpertext transfer protocol > right click on host > apply as column
+   then right click on any http with host snopes > right click > follow > as TCP stream.
+   theres a server name
+
+about what cellphone issue? ans: charging issue 
+
+1. search this:  frame matches"(?i)cell" then frame matches"(?i)phone"
+in the first http request cell keyword is used in URL and it was about cell phone charging issue.
+
+Q. where ryan will learn saxophone 
+  search:  frame matches"zillow"
+ 1. click on packet then click on HYpertext transfer protocol > right click on Get > open hypertext protocol > TCP okay.
+ 2. click on file > export > HTTP anywhere.
+ 3. go to chrome install extension Ruffle Flash Emulator 
+ 4. start extension ruffle > load Zillow in it youll see ans.
+
+
+Q. how many web servers are running apache?  ans: 
+1. http.response
+   click on any http packet > go to Hypertext transfer protocol > right click on server > apply as column 
+2. http.server contains"Apache" 
+   go to statistics > endpoints > ipv4 youll see total number of servers

@@ -1,0 +1,19 @@
+# sysinternal tools for network tracking
+# Capture TCp/Udp packets (Tools: TcpView)
+1. open TCP view > file > save file as txt.
+2. open the txt file
+
+for who.is
+1. open TCP view right click on any packet > who.is
+
+#Monitor Harddisk (tool: Disk Mon)
+1. save to .log file.
+2. check operations performed in the disk as per time and sectors affected.
+
+
+# Monitor virtual memory (Tool: VMMAP)
+1. Opan VMMAP > Options > Show Free And unusable regions.
+2. file > select process eg. chrome.exe and save it as .mmp file
+
+#Monitor Cache Memory (Tool: RAMMAP)
+1. file > save as .rmp file 
